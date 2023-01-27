@@ -1,6 +1,6 @@
 # Moore's voting Algorithm for major element in an Array
 
-arr=[1,2,3,4,5]
+arr=[1,1,2]
 major=arr[0]
 count=1
 n=len(arr)
@@ -11,6 +11,7 @@ for i in range(1,n):
         count-=1
     if count ==0:
         major=arr[i]
+        count=1
 
 c=0
 for i in range(n):
