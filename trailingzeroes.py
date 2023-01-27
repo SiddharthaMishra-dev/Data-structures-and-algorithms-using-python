@@ -1,6 +1,8 @@
 n=int(input())
 res=0
-for i in range(5,n,*5):
+i=5
+while i<=n:
     res+=n/i
+    i=i*5
 
 print(res)
