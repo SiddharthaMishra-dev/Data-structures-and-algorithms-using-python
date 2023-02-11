@@ -27,4 +27,4 @@ class Solution:
         while temp1!=temp2:
             temp1=temp1.next
             temp2=temp2.next
-        return temp1.data
+        return temp1.data   
