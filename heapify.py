@@ -21,6 +21,8 @@
 
 # heapSort(arr,n)
 # print(arr)
+
+
 def heapify(arr,n,i):
     largest=i
     l=i*2 +1
@@ -46,3 +48,6 @@ arr=[10,22,2,90,3,44]
 n=len(arr)
 heapSort(arr,n)
 print(arr)
+
+
+
